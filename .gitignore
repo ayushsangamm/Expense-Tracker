@@ -1,0 +1,16 @@
+# Dependency Directories
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Local databases
+backend/data/mock_db.json
+
+# Local Configuration secrets (Contains JWT keys)
+.env
+backend/.env
+
+# Visual builds/logs
+dist/
+.DS_Store
+*.log
